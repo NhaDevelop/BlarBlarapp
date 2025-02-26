@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: appTheme,
+       theme: ThemeData(
+        fontFamily: 'Eesti', // Apply Eesti font globally
+      ),
       home: const Scaffold(body: RidePrefScreen()),
     );
   }
