@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:week_3_blabla_project/screens/ride_pref/widgets/bla_button.dart';
+import 'package:week_3_blabla_project/screens/app_widget/bla_button.dart';
 import '../../theme/theme.dart';
 import 'package:week_3_blabla_project/utils/animations_util.dart';
 
