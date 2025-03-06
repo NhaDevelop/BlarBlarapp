@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:week_3_blabla_project/screens/app_widget/bla_button.dart';
 // import 'package:week_3_blabla_project/widgets/actions/bla_icon_button.dart';
 
 import '../../../theme/theme.dart';
+// import '../../../widgets/actions/bla_icon_button.dart';
 
 ///
 /// This tile represents a selectable tile on the Ride Preference screen
@@ -38,11 +40,16 @@ class RidePrefInputTile extends StatelessWidget {
           style: BlaTextStyles.button.copyWith(fontSize: 14, color: textColor)),
       leading: Icon(
         leftIcon,
-        size: BlaSize.icon,
+        // size: BlaSize.iconMedium,
         color: BlaColors.iconLight,
       ),
       trailing: rightIcon != null
-          ? BlaIconButton(icon: rightIcon, onPressed: onRightIconPressed)
+          ? BlaButton(
+            // size: BlaSize.iconMedium,
+              icon: rightIcon,
+              onPressed: onRightIconPressed ?? () {},
+              text: "helllo",
+    )
           : null,
     );
   }

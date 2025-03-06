@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:week_3_blabla_project/dummy_data/dummy_data.dart';
 import 'package:week_3_blabla_project/screens/app_widget/bla_button.dart'; 
 import 'package:week_3_blabla_project/screens/app_widget/seat_number_picker.dart';
-import 'package:week_3_blabla_project/screens/ride/ride_screen.dart';
+import 'package:week_3_blabla_project/screens/rides/ride_screen.dart';
 import '../../../model/ride/locations.dart';
 import '../../../model/ride_pref/ride_pref.dart';
 import 'package:week_3_blabla_project/screens/app_widget/location_picker.dart';

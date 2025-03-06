@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:week_3_blabla_project/screens/ride/widget/ride_card.dart';
+import 'package:week_3_blabla_project/screens/rides/widgets/ride_tile.dart';
 import '../../../model/ride/ride.dart';
 import '../../../model/ride_pref/ride_pref.dart';
 import '../../../theme/theme.dart';

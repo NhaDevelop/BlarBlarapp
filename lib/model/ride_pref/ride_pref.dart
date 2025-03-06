@@ -16,6 +16,8 @@ class RidePref {
       required this.arrival,
       required this.requestedSeats});
 
+  get currentPreference => null;
+
   @override
   String toString() {
     return 'RidePref(departure: ${departure.name}, '
