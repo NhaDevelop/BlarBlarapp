@@ -11,7 +11,7 @@ import 'package:week_3_blabla_project/theme/theme.dart';
 
 // A form widget to collect and manage user ride preferences
 class RidePrefForm extends StatefulWidget {
-  final RidePref? initRidePref; // Optional initial ride preferences
+  final RidePreference? initRidePref; // Optional initial ride preferences
 
   const RidePrefForm({super.key, this.initRidePref, required initialPreference, required void Function(dynamic newPreference) onSubmit});
 
@@ -78,7 +78,7 @@ class _RidePrefFormState extends State<RidePrefForm> {
   void _onSearchPressed() {
     if (departure != null && arrival != null) {
       // Create a RidePref object with the selected data
-      RidePref ridePref = RidePref(
+      RidePreference ridePref = RidePreference(
         departure: departure!,
         arrival: arrival!,
         departureDate: departureDate,

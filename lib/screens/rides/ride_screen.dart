@@ -5,7 +5,7 @@ import '../../../model/ride_pref/ride_pref.dart';
 import '../../../theme/theme.dart';
 
 class RidesScreen extends StatelessWidget {
-  final RidePref ridePref;
+  final RidePreference ridePref;
   final List<Ride> rides;
 
   const RidesScreen({

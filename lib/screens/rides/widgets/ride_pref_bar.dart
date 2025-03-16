@@ -8,8 +8,8 @@ import '../../ride_pref/widgets/ride_pref_form.dart';
 class RidePrefModal extends StatefulWidget {
   RidePrefModal({super.key, required this.currentPreference, required this.onUpdate});
 
-  final RidePref currentPreference;
-  final void Function(RidePref) onUpdate;
+  final RidePreference currentPreference;
+  final void Function(RidePreference) onUpdate;
 
   @override
   State<RidePrefModal> createState() => _RidePrefModalState();
@@ -21,7 +21,7 @@ class _RidePrefModalState extends State<RidePrefModal> {
   }
 
   void _onSubmit(dynamic newPreference) {
-    widget.onUpdate(newPreference as RidePref); // Notify parent widget of the new preference
+    widget.onUpdate(newPreference as RidePreference); // Notify parent widget of the new preference
 
     Navigator.pop(context, newPreference);
   }

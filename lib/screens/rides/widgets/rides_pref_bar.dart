@@ -18,7 +18,7 @@ class RidePrefBar extends StatelessWidget {
     required this.onFilterPressed,
   });
 
-  final RidePref ridePreference;
+  final RidePreference ridePreference;
 
   final VoidCallback onBackPressed;
   final VoidCallback onPreferencePressed;
@@ -78,7 +78,7 @@ class RidePrefBar extends StatelessWidget {
 }
 
 class RidePrefSummary extends StatelessWidget {
-  final RidePref ridePref;
+  final RidePreference ridePref;
   final VoidCallback onPressed;
   const RidePrefSummary(
       {super.key, required this.ridePref, required this.onPressed});
